@@ -1,0 +1,111 @@
+.register{
+	width: 1200px;
+	margin: auto;
+}
+.header{
+	height: 82px;
+	border-bottom: 2px solid #b1191a;
+}
+.log{
+	padding-top: 15px;
+}
+.registerarea{
+	width: 1198px;
+	height: 520px;
+	margin-top: 18px;
+	border: 1px solid #ccc;
+}
+.registertitle{
+	height: 40px;
+	background-color: #ececec;
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+	padding: 0 10px;
+}
+.registertitle h3{
+	font-size: 18px;
+	font-weight: 400;
+}
+.registertitle em{
+	float: right;
+	font-size: 14px;
+}
+.registertitle a{
+	color: #c81623;
+}
+.reg_form{
+	width: 600px;
+	height: 380px;
+	margin: 50px auto;
+}
+.reg_form li{
+	margin-bottom: 20px;
+}
+.reg_form label{
+	width: 100px;
+	height: 36px;
+	display: inline-block;
+	text-align: right;
+	line-height: 36px;
+}
+.inp{
+	width: 236px;
+	height: 32px;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+}
+.reg_form i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/error.png);
+	vertical-align: middle;
+	margin-top: -5px;
+	margin-left: 10px;
+}
+.reg_form span{
+	color: #df3033;
+	font-size: 12px;
+}
+.reg_form .safe{
+	font-size: 12px;
+	color: #b2b2b2;
+	padding-left: 185px;
+}
+.reg_form  em{
+	width: 34px;
+	height: 13px;
+	display: inline-block;
+	text-align: center;
+	line-height: 13px;
+	color: #fff;
+}
+.ruo{
+	background-color: #de1111;
+}
+.zhong{
+	background-color: #40b83f;
+}
+
+.qiang{
+	background-color: #f79100;
+}
+.xieyi{
+	padding-top: 20px;
+}
+.xieyi input{
+	margin-left: 110px;
+}
+.xieyi a{
+	color: #1ba1e6;
+}
+.over{
+	width: 200px;
+	height: 34px;
+	background-color: #c81623;
+	border: none; 
+	font-size: 14px;
+	color: #fff;
+	margin: 20px 0 0 130px;
+}
+

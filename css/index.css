@@ -1,0 +1,396 @@
+/*这个文件里放的是首页的样式*/
+
+
+/*main start*/
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 11px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    /* background: url(../upload/focus.jpg) no-repeat; */
+    overflow: hidden;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    display: none;
+    z-index: 2;
+}
+
+.focus img {
+    width: 721px;
+    height: 454px;
+}
+
+.focus ul {
+    width: 500%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    width: 8px;
+    height: 8px;
+    float: left;
+    /* background-color: #fff; */
+    border: 1px solid rgba(255, 255, 255, .7);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.arrow-r {
+    right: 0px;
+}
+
+.newsflash {
+    width: 248px;
+    height: 453px;
+}
+
+.news {
+    width: 248px;
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news_title {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.news_title a {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+
+.news_contain {
+    margin-top: 10px;
+}
+
+.news_contain p {
+    height: 23px;
+    padding-left: 15px;
+}
+
+.lifeservice {
+    width: 248px;
+    height: 208px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-top: none;
+}
+
+.lifeservice ul {
+    width: 252px;
+    height: 208px;
+}
+
+.lifeservice a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.lifeservice ul li {
+    display: block;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service_ico_huafei {
+    width: 24px;
+    height: 24px;
+    background-position: -18px -16px;
+}
+
+.service_ico_jipiao {
+    width: 26px;
+    height: 26px;
+    background-position: -78px -15px;
+}
+
+.service_ico_dianying {
+    width: 25px;
+    height: 25px;
+    background-position: -141px -16px;
+}
+
+.service_ico_youxi {
+    width: 24px;
+    height: 24px;
+    background-position: -206px -16px;
+}
+
+.service_ico_caipiao {
+    width: 24px;
+    height: 24px;
+    background-position: -17px -88px;
+}
+
+.service_ico_jiayou {
+    width: 25px;
+    height: 24px;
+    background-position: -79px -88px;
+}
+
+.service_ico_jiudian {
+    width: 24px;
+    height: 24px;
+    background-position: -142px -88px;
+}
+
+.service_ico_huoche {
+    width: 25px;
+    height: 25px;
+    background-position: -207px -88px;
+}
+
+.service_ico_zhongchou {
+    width: 24px;
+    height: 24px;
+    background-position: -17px -160px;
+}
+
+.service_ico_licai {
+    width: 25px;
+    height: 25px;
+    background-position: -79px -159px;
+}
+
+.service_ico_lipin {
+    width: 25px;
+    height: 20px;
+    background-position: -141px -158px;
+}
+
+.service_ico_baitiao {
+    width: 25px;
+    height: 25px;
+    background-position: -206px -159px;
+}
+
+.bargain {
+    width: 250px;
+    height: 75px;
+    margin-top: 5px;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recom-hd {
+    float: left;
+    width: 209px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recom-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.recom-bd {
+    float: left;
+    width: 991px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom-bd li {
+    float: left;
+    width: 247px;
+    height: 143px;
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.recom-bd img {
+    width: 247px;
+    height: 143px;
+}
+
+.recom-bd .recom-bd-last {
+    border-right: none;
+}
+
+
+/*floor start*/
+
+.jiadian {
+    margin-top: 20px;
+}
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.tab-list {
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list a {
+    padding: 0 10px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.w209 ul li {
+    width: 85px;
+    height: 30px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    margin-left: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.tab-con {
+    height: 360px;
+}
+
+.tab-con-img {
+    width: 209px;
+    height: 260px;
+    display: block;
+}
+
+.tab-con-img img {
+    margin: 5px 10px;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con li {
+    overflow: hidden;
+}
+
+.tab-con img {
+    transition: all 0.3s;
+}
+
+.tab-con img:hover {
+    margin-left: 5px;
+}
+
+
+/*电梯导航*/
+
+.fixedtool {
+    width: 55px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -665px;
+}
+
+.fixedtool li {
+    height: 32px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #ededed;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
